@@ -29,5 +29,7 @@ namespace BigKalendae.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<BigKalendae.Models.Event> Events { get; set; }
     }
 }
